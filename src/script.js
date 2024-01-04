@@ -86,6 +86,7 @@ function getRes(messages, who) {
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Authorization", "Bearer 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");
 
+
 var raw = JSON.stringify({
   "model": "gpt-3.5-turbo",
   "messages": input_message,
