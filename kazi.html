@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat With Legends</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/normalize.min.css">
+  <link rel="stylesheet" href="./src/style.css">
+
+</head>
+<body>
+
+<div class="center">
+  
+  <div class="chat">
+    <div class="contact bar">
+      <div class="pic kazi"></div>
+      <div class="name">
+        Kazi Nazrul Islam
+      </div>
+      <div class="seen">
+        Online
+      </div>
+    </div>
+    <div class="messages" id="chat">
+      <div class="time">
+        Start Your Conversation
+      </div>
+      
+      <div id="messages">
+
+      </div>
+
+      
+      <div style="display: none;" id="typing" class="message AI">
+        <div class="typing typing-1"></div>
+        <div class="typing typing-2"></div>
+        <div class="typing typing-3"></div>
+      </div>
+    </div>
+    <div class="input">
+      <input id="text" placeholder="Type your message here!" type="text"><i onclick="send(1)" class="fa fa-paper-plane" aria-hidden="true" onkeydown="checkEnter(event)"></i>
+    </div>
+  </div>
+</div>
+
+  <script src="./src/jquery.min.js"></script><script src="./src/script.js"></script>
+
+
+
+</body></html>
