@@ -84,7 +84,7 @@ function getRes(messages, who) {
 
    var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
-myHeaders.append("Authorization", "Bearer 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");
+myHeaders.append("Authorization", "Bearer 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");
 
 
 var raw = JSON.stringify({
